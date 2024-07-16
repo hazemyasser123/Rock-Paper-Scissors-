@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RPS</title>
+</head>
+<body>
+    <section class="container">
+        <div class="resaultfield">
+            <div class="resaultImg">
+                
+                <span class="userResault" id="userResault">
+                    <img src="rock.png" alt="rock" id="userImg" >
+                </span>
+                <span class="botResault" id="botResault" >
+
+                    <img src="rock.png" alt="paper" id="BotImg" >
+                </span>
+            </div>
+            <div class="resault" id="resault">
+                Let's Play!!
+            </div>
+            <div class="optionImgs">
+                <span class="optionImg" id="RockOption" onclick="IsRock()">
+                    <img src="rock.png" alt="rock" id="rock" >
+                    <p>Rock</p>
+                </span>
+                
+                <span class="optionImg" id="PaperOption" onclick=" IsPaper()">
+                    <img src="paper.png" alt="paper" id="paper">
+                    <p>paper</p>
+                </span>
+
+                <span class="optionImg" id="ScissorsOption" onclick="IsScissors()">
+                    <img src="scissors.png" alt="scissors" id="scissors">
+                    <p>scissors</p>
+                </span>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
